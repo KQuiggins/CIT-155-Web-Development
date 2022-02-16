@@ -1,0 +1,1 @@
+Emmet is basically a plug-in for text-editors that helps speed up your coding and editing by typing in abbreviations or certain syntax and hitting the tab key to expand those abbreviations into full code. Emmet is free and open source.
