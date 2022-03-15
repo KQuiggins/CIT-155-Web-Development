@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style rules for mobile Viewport */
+.tab-desk{
+    display: none;
+}
+
+/* Style rules for header content */
+header h1{
+    padding-top: 5%;
+}
+
+header h2 {
+    padding-bottom: 5%;
+}
+
+header h1, h2{
+    text-align: center;
+    font-family: 'Poppins';
+    padding-bottom: 5px;
+    
+}
+
+/* Style rules for header image */
+ .bg-box{
+    
+    padding: 2rem;
+    display: block;
+    position: relative;
+    top: 60px;
+    
+
+
+}
+
+.bg-img{
+    display: block;
+    position: relative;
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+    
+    
+    
+}
+
+/* Style rules for nav area */
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Poppins' ;
+    font-weight: bold;
+    border: 0.5px solid #f6eee4;
+}
+
+nav a {
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+.nav_links{
+    position: relative;
+    max-width: 100%;
+    
+}
+
+/* Style rules for main area content */
+
+main{
+    padding: 2%;
+    font-family: 'Montserrat';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+#p1, #p2{
+    padding-bottom: 1em;
+}
+
+
+.welcome{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    margin: 2px;
+    padding: 2em;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    border-radius: 0.5rem;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.welcome a {
+    text-decoration: none;
+}
+
+#pyText{
+    margin-bottom: 0.5em;
+}
+    
+
+
+
+#types{
+    text-align: center;
+    border: 1px solid;
+    padding: 1em;
+    border-radius: 0.5rem;
+}
+
+#types a {
+    text-decoration: none;
+    
+}
+
+#types h3{
+    color: rgb(17, 73, 146);
+    padding: 5px;
+}
+
+.fun{
+    color: rgb(23, 35, 190);
+    font-weight: bold;
+}
+
+#net{
+    display: block;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    
+    
+}
+
+/* Style rules for footer content */
+
+address{
+    background: rgb(13, 106, 143);
+}
+
+footer{
+    
+    margin-top: auto;
+    text-align: center;
+    background: rgb(13, 106, 143);
+    padding: 3em;
+    color: #fff;
+}
+
+
+
+/* Media Query for tablet viewport */
+@media screen and  (min-width: 700px), print{
+    
+    /* Style rules for main area content */
+    
+    .welcome h3{
+        padding-bottom: 20px;
+        
+    }
+
+
+    .container {
+        font-size: 1.35em;    
+    }
+
+    .tab-desk{
+        display: block;
+        position: relative;
+        height: 100px;
+    }
+    
+    /* Style rules for images */
+    #python {
+        height: 90px;
+        padding: 5px;
+    }
+
+    #JS{
+        height: 90px;
+        padding: 5px;
+    }
+
+    #html{
+        height: 90px;
+        padding: 10px;
+    }
+
+    #net{
+        height: 50px;
+        padding: none;
+    }
+
+    
+}
+    
+
+    
+
+
+/* Media Query for Desktop Viewport */
+@media  screen and (min-width: 1000px), print {
+    
+    /* Style rules for main area content */
+
+    .welcome h3{
+        padding-bottom: 15px;
+        
+    }
+    
+    .container{
+        font-size: 1.5em;
+    }
+
+    /* Style rules for images */
+    #JS{
+        height: 110px;
+        padding: 10px;
+    }
+    
+    
+    #python {
+        height: 110px;
+        padding: 10px;
+       }
+
+    #html{
+        height: 100px;
+        padding: 10px;
+    }
+
+    #net{
+        height: 60px;
+        padding: 1px;
+    }
+    
+}
+
+/* Media Query for print */
+
+
+
+
+
+
+
+
+
+
+
+
+
