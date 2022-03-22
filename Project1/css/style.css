@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 /* Style rules for mobile Viewport */
@@ -98,6 +99,14 @@ body{
     padding-bottom: 1em;
 }
 
+#pyText{
+    color: #393087;
+}
+
+#CSharp{
+    color: #990d12;
+}
+
 
 .welcome{
     
@@ -109,7 +118,9 @@ body{
     padding: 2em;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
     border-radius: 0.5rem;
+    color: #121917;
 }
+
 
 .welcome p {
     font-size: 1.2em;
@@ -118,6 +129,14 @@ body{
 
 .welcome a {
     text-decoration: none;
+}
+
+#CSharp{
+    color: #2c3d39;
+}
+
+.prog_styles{
+    color: #2c3d39;
 }
 
 #pyText{
@@ -132,6 +151,8 @@ body{
     border: 1px solid;
     padding: 1em;
     border-radius: 0.5rem;
+    background-color: rgba(204, 204, 204, 0.5);
+    box-shadow: 5px 5px 5px #b3b3b3;
 }
 
 #types a {
@@ -140,13 +161,17 @@ body{
 }
 
 #types h3{
-    color: rgb(17, 73, 146);
+    color: #214087;
     padding: 5px;
 }
 
 .fun{
     color: rgb(23, 35, 190);
     font-weight: bold;
+}
+
+#procedural{
+    padding-top: 1em;
 }
 
 #net{
@@ -214,7 +239,7 @@ footer{
 
     #net{
         height: 50px;
-        padding: none;
+        padding: 1px;
     }
 
     
@@ -261,8 +286,6 @@ footer{
     }
     
 }
-
-/* Media Query for print */
 
 
 
