@@ -1,0 +1,66 @@
+/*
+Author: Kenneth Quiggins
+Date: 4/8/2022
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style rules for the table elements */
+/* Table style rule sets a border and centers the table */
+table {
+	
+	border: 3px solid #71881b;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style rule to collapse border and add padding */
+table, tr, th, td{
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style rule to add border to create individual cells*/
+th, td{
+	border: 1px solid #7188bb;
+}
+
+
+/* Style rule to center align the data in the cells */
+td{
+	text-align: center;
+}
+
+/* Style rule to add background color to odd rows */
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}
+
+caption{
+	font-size: 2em;
+	margin-top: 2%;
+	padding: 2%;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}

@@ -1,0 +1,61 @@
+/* Kenneth Quiggins April 8, 2022 */
+
+
+*{
+    font-family: sans-serif;
+}
+
+
+/* Style rules for caption element */
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 2%;
+}
+
+
+/* Style rules for body of page */
+body{
+    background-color: #ffe5dc;
+}
+
+
+/* Style rules for table */
+table{
+    border: 5px solid #fd4d0c;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 60%;
+    box-shadow: 5px 5px 5px #792101;
+}
+
+/* Style rules for table head and data elements */
+th, td{
+    border: 1px solid #a22c02;
+    padding: 10px;
+    text-align: left;
+    padding: 2%;
+}
+
+td{
+    font-size: 1em;
+    
+    
+}
+
+th{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Style rules to change color of odd rows of table */
+tr:nth-child(odd){
+    background-color: #fe9772;
+}
+
+
+
