@@ -1,0 +1,70 @@
+/*
+Author: Kenneth Quiggins
+Date: March 28, 2022
+File Name: styles07.css
+*/
+
+/* CSS Reset */
+body, header, main, footer, h1, h3, section, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #dfe7c4;
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #628c45;
+	color: #dfe7c4;
+	padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content  */
+main {
+	background-color: #fff;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	
+}
+
+.col{
+	
+	flex-basis: 100%;
+	
+	padding: 1%;
+	/* border: 1px solid #628c45; */
+	text-align: center;
+}
+
+#col2{
+	border-right: 1px solid #628c45;
+	border-left: 1px solid #628c45;
+}
+
+aside {
+    padding: 2%;
+}
+
+a{
+	text-decoration: none;
+	color: #628c45;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	
+}
